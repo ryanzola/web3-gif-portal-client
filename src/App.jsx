@@ -29,8 +29,14 @@ const TEST_GIFS = [
   'https://media.giphy.com/media/d3QGYTziFiDL2/giphy.gif'
 ]
 
-const App = () => {
+/* 
+  TODO:
+  Show the public address of the user who posted each GIF
+  Allow users to upvote GIFs
+  Allow users to "tip" GIF posters with SOL
+*/
 
+const App = () => {
   const [walletAddress, setWalletAddress] = useState(null)
   const [inputValue, setInputValue] = useState("")
   const [gifList, setGifList] = useState([])
